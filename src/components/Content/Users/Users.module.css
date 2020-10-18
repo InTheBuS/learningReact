@@ -1,0 +1,14 @@
+.friend {
+    padding: 10px;
+}
+
+.friend img {
+    height: 80px;
+    width: 80px;
+    border-radius: 35px;
+
+}
+
+.active {
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.dialogues {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+
+.allDialogues {
+    padding: 10px;
+}
+
+.dialogue {
+    color: white;
+}
+
+.dialogue .active {
+    color: black;
+    text-decoration: underline;
+}
+
+.active {
+    color: black;
+    text-decoration: underline;
+}
+
+.messages {
+    margin-top: 1px;
+    padding: 10px;
+}
+
+/*.message {
+    color: white;
+}*/
+
+.myMessage {
+    color: gold;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.otherMessage {
+    color: pink;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.newMessageArea {
+    text-align: right;
+    margin-top: 50px;
+}
+

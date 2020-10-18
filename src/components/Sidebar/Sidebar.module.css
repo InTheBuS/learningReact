@@ -1,0 +1,38 @@
+.sidebar {
+    grid-area: b;
+    background-color: #ffb23d;
+    padding: 15px;
+
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a.active {
+    color: black;
+    text-decoration: underline;
+}
+
+/*.item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    padding: 10px;
+}*/
+
+.friends {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.friends img {
+    height: 60px;
+    width: 60px;
+    border-radius: 35px;
+    padding: 10px;
+}
